@@ -24,12 +24,14 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+  - Desktop
 ![](./images/screenshot-desktop.png)
+  - Mobile
+![](./images/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/-responsive-landing-page-with-html-and-tailwind-uBQYBIpkrV)
 - Live Site URL: [Netlify](https://transcendent-gelato-4e3e5f.netlify.app)
 
 ## My process
