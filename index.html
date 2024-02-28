@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/style.css">
-  
+
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <script src="https://kit.fontawesome.com/00b741217a.js" crossorigin="anonymous"></script>
 </head>
+
 <body class="bg-[url('images/bg-desktop.svg')] bg-[--main-bg-color] ">
-    <main class="h-screen flex items-center justify-center">
-      <div class="grid grid-cols-2 gap-4">
-        <div>
-          <img class="object-cover" src="images/illustration-mockups.svg"/>
-        </div>
-        <div>  
-          <h1 class="text-white text-5xl font-semibold">Build The Community Your Fans Will Love</h1>
-          <p class="text-white/75 text-lg">
-            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-            Create connections with your users as you engage in genuine discussion. 
-          </p>
-          <button class="bg-white rounded text-[--main-bg-color] hover:bg-[--main-btn-color] hover:text-white">  
-            Register
-          </button>
-        </div>
+  <header class="px-16 mt-4 w-screen place-content-start">
+    <img src="images/logo.svg"/>
+  </header>
+  <main class="px-16 py-8 w-screen flex items-center justify-center flex-row sm:flex-col">
+    <div class="grid grid-cols-2 gap-4 flex-col">
+      <div>
+        <img src="images/illustration-mockups.svg" />
       </div>
-    </main>
+      <div class="p-4">
+        <h1 class=" mb-5 text-white text-5xl font-semibold leading-relaxed">Build The Community Your Fans Will Love</h1>
+        <p class="mb-8 text-white/75 text-lg  leading-relaxed">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button
+          class="p-4 px-16 mb-5 bg-white rounded-full shadow-xl text-[--main-bg-color] active:bg-[--main-btn-color] active:text-white">
+          Register
+        </button>
+      </div>
+    </div>
+    <div class="px-16 mt-2 grid w-screen flex place-content-end">
+      <div class="p-2 flex place-content-end">
+        <button
+          class="px-2 py-1 m-1 rounded-full text-white active:text-[--main-btn-color] border-2 active:border-[--main-btn-color]"><i
+            class="fa-brands fa-facebook"></i></button>
+        <button
+          class="px-2 py-1 m-1 rounded-full text-white active:text-[--main-btn-color] border-2 active:border-[--main-btn-color]"><i
+            class="fa-brands fa-twitter"></i></button>
+        <button
+          class="px-2 py-1 m-1 rounded-full text-white active:text-[--main-btn-color] border-2 active:border-[--main-btn-color]"><i
+            class="fa-brands fa-instagram"></i></button>
+      </div>
+    </div>
+  </main>
 
   <footer class="flex items-center justify-center">
     <p class="text-white">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/jessica-arvizu/" target="_blank">Jessica Arvizu</a>.
     </p>
   </footer>
 </body>
+
 </html>
